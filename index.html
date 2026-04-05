@@ -1,1 +1,233 @@
-<html>  </html>
+<html>  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suthakhar Ponnambalam — Software Developer in Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+    <a href="#hero" class="nav-logo">~Suthakhar</a>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contact" class="nav-cta">contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-inner">
+      <p class="hero-prompt">▶ whoami <span class="cursor"></span></p>
+      <h1 class="hero-name">Suthakhar Ponnambalam</h1>
+      <p class="hero-role">Software Developer in Test</p>
+      <p class="hero-desc">
+        Building automation infrastructure and performance testing pipelines for large-scale enterprise applications. Skilled in Playwright, Selenium, LoadRunner, and Javascript, with a strong track record of improving release confidence and system reliability.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">./view-work.sh</a>
+        <a href="#" class="btn-secondary">cat resume.pdf</a>
+      </div>
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <div class="dot dot-red"></div>
+          <div class="dot dot-yellow"></div>
+          <div class="dot dot-green-dot"></div>
+          <span class="terminal-title">Suthakhar — bash</span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="t-prompt">$ </span><span class="t-cmd">cat about.json</span></div>
+          <div><span class="t-output">{</span></div>
+          <div>&nbsp;&nbsp;<span class="t-key">"location"</span><span class="t-output">: </span><span class="t-val">"Ottawa, ON"</span><span class="t-output">,</span></div>
+          <div>&nbsp;&nbsp;<span class="t-key">"role"</span><span class="t-output">: </span><span class="t-val">"Software Developer in Test"</span><span class="t-output">,</span></div>
+          <div>&nbsp;&nbsp;<span class="t-key">"experience"</span><span class="t-output">: </span><span class="t-val">"5+ years"</span><span class="t-output">,</span></div>
+          <div>&nbsp;&nbsp;<span class="t-key">"open_to_work"</span><span class="t-output">: </span><span class="t-val">true</span></div>
+          <div><span class="t-output">}</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <p class="section-label">01 &mdash; about</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a software developer in test with <span>5+ years</span> of experience building products from zero to production. I'm working at an enterprise company with a strong focus on automation and quality assurance.</p>
+          <p>My focus is on <span>automation and performance engineering</span>. I care a lot about system design, code quality, and making the right tradeoffs when speed matters.</p>
+          <p>Outside of work I'm usually reading, cooking and spending time with family.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">5<span>+</span></div>
+            <div class="stat-label">Years of experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">7<span>+</span></div>
+            <div class="stat-label">Projects Worked</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">1</div>
+            <div class="stat-label">Organization(s)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Bugs squashed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">02 &mdash; projects</p>
+      <div class="projects-list">
+        <div class="project-item">
+          <div class="project-header">
+            <div class="project-name">Test Data Creation Tool</div>
+            <span class="project-num">01</span>
+          </div>
+          <p class="project-desc">Built an internal tool that auto-generated 50,000+ test records, eliminating manual test data setup entirely. Reduced costs by ~$25,000 CAD per year and freed up significant engineering time across the QA team.</p>
+          <div class="project-tags">
+            <span class="tag tag-green">Javascript</span>
+            <span class="tag tag-blue">Postman</span>
+            <span class="tag tag-orange">Jenkins</span>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-header">
+            <div class="project-name">E2E Automation Framework</div>
+            <span class="project-num">02</span>
+          </div>
+          <p class="project-desc">Designed and maintained a scalable automation framework using Selenium and Playwright, scripting 300+ end-to-end scenarios for core regression (NQB and Salesforce). Reduced manual regression effort by over 60% and integrated directly into the Jenkins CI/CD pipeline to support biweekly releases.</p>
+          <div class="project-tags">
+            <span class="tag tag-green">Playwright</span>
+            <span class="tag tag-green">Selenium</span>
+            <span class="tag tag-orange">Jenkins</span>
+            <span class="tag tag-blue">Javascript</span>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-header">
+            <div class="project-name">Performance Testing Pipeline</div>
+            <span class="project-num">03</span>
+          </div>
+          <p class="project-desc">Led performance testing across enterprise platforms (OLS, NQB, Salesforce CRM) using LoadRunner and Neoload. Surfaced critical bottlenecks in NQB quote calls that enabled engineering teams to cut response times by 20%. Delivered actionable reports on 90th percentile response times to both engineering and business stakeholders.</p>
+          <div class="project-tags">
+            <span class="tag tag-blue">LoadRunner</span>
+            <span class="tag tag-blue">Neoload</span>
+            <span class="tag tag-blue">Splunk</span>
+            <span class="tag tag-blue">Dynatrace</span>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-header">
+            <div class="project-name">Salesforce CRM & PLCM Test Suite</div>
+            <span class="project-num">04</span>
+          </div>
+          <p class="project-desc">Built a dedicated automated test suite for Salesforce CRM and PLCM workflows, covering end-to-end producer lifecycle and customer management scenarios. Ensured release confidence across complex Salesforce environments with full CI integration.</p>
+          <div class="project-tags">
+            <span class="tag tag-green">Playwright</span>
+            <span class="tag tag-orange">Salesforce</span>
+            <span class="tag tag-green">Javascript</span>
+            <span class="tag tag-orange">Jenkins</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">03 &mdash; skills</p>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <p class="skill-group-label">languages & testing</p>
+          <div class="skill-pills">
+            <span class="skill-pill pill-green">Javascript</span>
+            <span class="skill-pill pill-green">Java</span>
+            <span class="skill-pill pill-green">Playwright</span>
+            <span class="skill-pill pill-green">Selenium</span>
+            <span class="skill-pill pill-green">Robot Framework</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-label">performance testing</p>
+          <div class="skill-pills">
+            <span class="skill-pill pill-blue">LoadRunner</span>
+            <span class="skill-pill pill-blue">Neoload</span>
+            <span class="skill-pill pill-blue">Vugen</span>
+            <span class="skill-pill pill-blue">Postman</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-label">other tools</p>
+          <div class="skill-pills">
+            <span class="skill-pill pill-orange">AWS</span>
+            <span class="skill-pill pill-orange">Docker</span>
+            <span class="skill-pill pill-orange">Jenkins</span>
+            <span class="skill-pill pill-orange">Git</span>
+            <span class="skill-pill pill-orange">Jira</span>
+            <span class="skill-pill pill-orange">Salesforce</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">04 &mdash; contact</p>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h2>Let's build something <span>great</span> together.</h2>
+          <p>I'm open to senior engineering roles, interesting contracts, and the right founding team. If that sounds like you — let's talk.</p>
+          <div class="contact-links">
+            <a href="mailto:suthakhar.ponnambalam@gmail.com" class="contact-link">
+              <div>
+                <div class="contact-link-meta">Email</div>
+                <div>suthakhar.ponnambalam@gmail.com</div>
+              </div>
+              <span class="contact-link-arrow">↗</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-link">
+              <div>
+                <div class="contact-link-meta">LinkedIn</div>
+                <div>https://www.linkedin.com/in/suthakharponnambalam/</div>
+              </div>
+              <span class="contact-link-arrow">↗</span>
+            </a>
+            <a href="https://github.com" target="_blank" class="contact-link">
+              <div>
+                <div class="contact-link-meta">GitHub</div>
+                <div>https://github.com/SuthakharPonnambalam</div>
+              </div>
+              <span class="contact-link-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/meepplak" method="POST">
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input type="text" name="name" class="form-input" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" class="form-input" placeholder="you@company.com" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea name="message" class="form-input" placeholder="Tell me about the role or project..."></textarea>
+          </div>
+          <button class="form-submit">▶ send_message.sh</button>
+        </form>
+      </div>
+    </div>
+  </section>
+ 
+</body>
+
+</html>
